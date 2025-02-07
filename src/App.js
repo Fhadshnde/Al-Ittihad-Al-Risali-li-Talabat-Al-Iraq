@@ -6,7 +6,7 @@ function App() {
     <div className="app">
       <header className="header">
         <div className="logo-container">
-        <img src={require('./images/logo-atthad.jpg')} className="logo" />
+        <img src={require('./images/logo-athad.jpg')} className="logo" />
         </div>
         <h1 className="main-text">الاتحاد الرسالي لطلبة العراق</h1>
       </header>
