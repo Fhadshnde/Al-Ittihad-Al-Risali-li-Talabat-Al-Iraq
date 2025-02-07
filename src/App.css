@@ -1,0 +1,166 @@
+/* Import Google Font and Font Awesome */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+h1 {
+  font-family: "Reem Kufi", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  background-color: #640914d3; 
+  color: #640914d3;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-image: linear-gradient(to bottom , #680808 ,#000000e5); 
+}
+
+.header {
+  margin-bottom: 10px;
+}
+
+.logo {
+  max-width: 120px;
+  border-radius: 40px;
+}
+
+.main-text {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #D4AF37;
+  font-family: "Reem Kufi", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sub-text {
+  font-size: 1.5rem;
+  color: #D4AF37; 
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #D4AF37;
+  margin-bottom: 30px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+h4 {
+position: relative;
+  color: #D4AF37;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #D4AF37;
+  top: -33px;
+  left: 55px;
+}
+.links a:nth-child(1), .links a:nth-child(2), .links a:nth-child(3), .links a:nth-child(4) {
+  background-color: #a6861b5e;
+}
+
+.links a:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.links a i {
+  margin-right: 10px;
+}
+
+.image-footer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-image {
+  max-width: 100px;
+  border-radius: 40px;
+}
+
+.right {
+  margin-left: 400px;
+}
+
+/* الاستجابة */
+@media (max-width: 768px) {
+  .main-text {
+    font-size: 2rem;
+  }
+
+  .sub-text {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .links a {
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+
+  .logo, .footer-image {
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-text {
+    font-size: 1.6rem;
+  }
+
+  .sub-text {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .links a {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+
+  .logo, .footer-image {
+    max-width: 70px;
+  }
+
+  .right {
+    margin-left: 60px;
+  }
+}
